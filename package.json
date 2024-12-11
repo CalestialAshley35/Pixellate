@@ -1,0 +1,39 @@
+{
+  "name": "Pixellate",
+  "version": "1.0.1",
+  "description": "A CLI tool for pixellating text",
+  "keywords": [
+    "pixellate",
+    "text",
+    "cli",
+    "code",
+    "ascii art"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/CalestialAshley35/Pixellate",
+  "bugs": {
+    "url": "https://github.com/CalestialAshley35/Pixellate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CalestialAshley35/Pixellate.git"
+  },
+  "license": "MIT",
+  "author": "Calestial Ashley",
+  "main": "index.js",
+  "bin": {
+    "pixellate": "index.js"
+  },
+  "scripts": {
+    "build": "echo 'No build step for JavaScript'",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "cowsay": "^1.6.0",
+    "simple-git": "^3.25.0"
+  },
+  "devDependencies": {}
+}
